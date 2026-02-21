@@ -144,86 +144,7 @@ export default function BlogPost() {
           </div>
         </div>
       </section>
-          </div>
-
-
-          {/* RIGHT: Enquiry form sidebar – scrolls with page */}
-          <aside>
-            <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-5 md:p-6">
-              <h3 className="text-xl font-bold text-gray-900 mb-1">Book Your Stay</h3>
-              <p className="text-sm text-gray-500 mb-6">Send us your enquiry — we&apos;ll respond quickly.</p>
-
-              <form onSubmit={handleEnquirySubmit} className="space-y-4">
-                <div>
-                  <label htmlFor="blog-name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                  <input
-                    id="blog-name"
-                    type="text"
-                    name="name"
-                    value={enquiry.name}
-                    onChange={handleEnquiryChange}
-                    required
-                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="blog-email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                  <input
-                    id="blog-email"
-                    type="email"
-                    name="email"
-                    value={enquiry.email}
-                    onChange={handleEnquiryChange}
-                    required
-                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="blog-mobile" className="block text-sm font-medium text-gray-700 mb-1">Mobile</label>
-                  <input
-                    id="blog-mobile"
-                    type="tel"
-                    name="mobile"
-                    value={enquiry.mobile}
-                    onChange={handleEnquiryChange}
-                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
-                    placeholder="+91 XXXXX XXXXX"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="blog-message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                  <textarea
-                    id="blog-message"
-                    name="message"
-                    value={enquiry.message}
-                    onChange={handleEnquiryChange}
-                    rows={3}
-                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none resize-none"
-                    placeholder="Check-in date, number of guests, or any question..."
-                  />
-                </div>
-
-                {enquiryStatus === "success" && (
-                  <p className="text-sm text-green-600 font-medium">Message sent! We&apos;ll get back soon.</p>
-                )}
-                {enquiryStatus === "error" && (
-                  <p className="text-sm text-red-600 font-medium">Something went wrong. Please try again.</p>
-                )}
-
-                <button
-                  type="submit"
-                  disabled={enquiryLoading}
-                  className="w-full bg-[#1E3A8A] text-white font-semibold py-3 rounded-xl hover:bg-[#10275c] transition disabled:opacity-70"
-                >
-                  {enquiryLoading ? "Sending..." : "Send Enquiry"}
-                </button>
-              </form>
-            </div>
-          </aside>
-        </div>
-         {/* Why Proximity – image with LIGHT overlay, text on white card over it */}
+            {/* Why Proximity – image with LIGHT overlay, text on white card over it */}
       <section className="relative py-10 md:py-14 px-6 overflow-hidden bg-gray-50/80 rounded-2xl">
         <div>
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -418,6 +339,85 @@ export default function BlogPost() {
           </div>
         </div>
       </section>
+          </div>
+
+
+          {/* RIGHT: Enquiry form sidebar – scrolls with page */}
+          <aside>
+            <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-5 md:p-6">
+              <h3 className="text-xl font-bold text-gray-900 mb-1">Book Your Stay</h3>
+              <p className="text-sm text-gray-500 mb-6">Send us your enquiry — we&apos;ll respond quickly.</p>
+
+              <form onSubmit={handleEnquirySubmit} className="space-y-4">
+                <div>
+                  <label htmlFor="blog-name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                  <input
+                    id="blog-name"
+                    type="text"
+                    name="name"
+                    value={enquiry.name}
+                    onChange={handleEnquiryChange}
+                    required
+                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="blog-email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                  <input
+                    id="blog-email"
+                    type="email"
+                    name="email"
+                    value={enquiry.email}
+                    onChange={handleEnquiryChange}
+                    required
+                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
+                    placeholder="your@email.com"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="blog-mobile" className="block text-sm font-medium text-gray-700 mb-1">Mobile</label>
+                  <input
+                    id="blog-mobile"
+                    type="tel"
+                    name="mobile"
+                    value={enquiry.mobile}
+                    onChange={handleEnquiryChange}
+                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none"
+                    placeholder="+91 XXXXX XXXXX"
+                  />
+                </div>
+                <div>
+                  <label htmlFor="blog-message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <textarea
+                    id="blog-message"
+                    name="message"
+                    value={enquiry.message}
+                    onChange={handleEnquiryChange}
+                    rows={3}
+                    className="w-full px-4 py-2.5 rounded-lg border border-gray-200 focus:ring-2 focus:ring-[#1E3A8A]/30 focus:border-[#1E3A8A] outline-none resize-none"
+                    placeholder="Check-in date, number of guests, or any question..."
+                  />
+                </div>
+
+                {enquiryStatus === "success" && (
+                  <p className="text-sm text-green-600 font-medium">Message sent! We&apos;ll get back soon.</p>
+                )}
+                {enquiryStatus === "error" && (
+                  <p className="text-sm text-red-600 font-medium">Something went wrong. Please try again.</p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={enquiryLoading}
+                  className="w-full bg-[#1E3A8A] text-white font-semibold py-3 rounded-xl hover:bg-[#10275c] transition disabled:opacity-70"
+                >
+                  {enquiryLoading ? "Sending..." : "Send Enquiry"}
+                </button>
+              </form>
+            </div>
+          </aside>
+        </div>
       </div>
 
       {/* CTA – light section */}
