@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { FaPhoneAlt, FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
@@ -30,11 +31,12 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-[#FACC15]">Quick Links</h3>
           <ul className="space-y-2 text-gray-300">
-            <li><a href="/" className="hover:text-[#FACC15]">Home</a></li>
-            <li><a href="/about" className="hover:text-[#FACC15]">About Us</a></li>
-            <li><a href="/services" className="hover:text-[#FACC15]">Services</a></li>
-            <li><a href="/gallery" className="hover:text-[#FACC15]">Gallery</a></li>
-            <li><a href="/contact" className="hover:text-[#FACC15]">Contact</a></li>
+            <li><Link href="/" className="hover:text-[#FACC15]">Home</Link></li>
+            <li><Link href="/about" className="hover:text-[#FACC15]">About Us</Link></li>
+            <li><Link href="/services" className="hover:text-[#FACC15]">Services</Link></li>
+            <li><Link href="/warranty" className="hover:text-[#FACC15]">Warranty</Link></li>
+            <li><Link href="/gallery" className="hover:text-[#FACC15]">Gallery</Link></li>
+            <li><Link href="/contact" className="hover:text-[#FACC15]">Contact</Link></li>
           </ul>
         </div>
 

@@ -30,6 +30,7 @@ export default function Header() {
           <Link href="/" className="hover:text-[#1E3A8A] text-black transition">Home</Link>
           <Link href="/about" className="hover:text-[#1E3A8A] text-black transition">About Us</Link>
           <Link href="/services" className="hover:text-[#1E3A8A] text-black transition">Services</Link>
+          <Link href="/warranty" className="hover:text-[#1E3A8A] text-black transition">Warranty</Link>
           <Link href="/gallery" className="hover:text-[#1E3A8A] text-black transition">Gallery</Link>
           <Link href="/blog" className="hover:text-[#1E3A8A] text-black transition">Blog</Link>
           <Link href="/contact" className="hover:text-[#1E3A8A] text-black transition">Contact</Link>
@@ -77,6 +78,7 @@ export default function Header() {
           <Link href="/" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Home</Link>
           <Link href="/about" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">About Us</Link>
           <Link href="/services" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Services</Link>
+          <Link href="/warranty" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Warranty</Link>
           <Link href="/gallery" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Gallery</Link>
           <Link href="/blog" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Blog</Link>
           <Link href="/contact" onClick={handleLinkClick} className="block text-lg font-medium text-[#1E3A8A]">Contact</Link>
