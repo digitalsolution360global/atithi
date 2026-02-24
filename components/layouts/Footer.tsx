@@ -33,6 +33,7 @@ export default function Footer() {
             <li><a href="/" className="hover:text-[#FACC15]">Home</a></li>
             <li><a href="/about" className="hover:text-[#FACC15]">About Us</a></li>
             <li><a href="/services" className="hover:text-[#FACC15]">Services</a></li>
+            <li><a href="/warranty" className="hover:text-[#FACC15]">Warranty</a></li>
             <li><a href="/gallery" className="hover:text-[#FACC15]">Gallery</a></li>
             <li><a href="/contact" className="hover:text-[#FACC15]">Contact</a></li>
           </ul>
