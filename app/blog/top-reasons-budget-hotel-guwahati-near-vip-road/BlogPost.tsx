@@ -93,7 +93,7 @@ export default function BlogPost() {
             <FaMapMarkerAlt /> Atithi Home Guwahati
           </div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight max-w-3xl">
-            Best Budget Hotel near VIP Road Guwahati for Comfortable & Affordable Stay
+            Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road
           </h1>
           <p className="mt-4 text-base md:text-lg text-white/90 mb-5 max-w-2xl">
             Stay at Atithi Home — 24/7 service, affordable rooms, and prime location near VIP Road Guwahati. Know why guests choose us for their Guwahati visit.
