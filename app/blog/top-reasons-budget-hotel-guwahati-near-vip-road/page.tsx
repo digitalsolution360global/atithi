@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BlogPost from "./BlogPost";
+import BlogPost from "./BlogPost"; 
 
 export const metadata: Metadata = {
   title: "Experience top-tier hospitality at Atithi Hotel VIP Road",
