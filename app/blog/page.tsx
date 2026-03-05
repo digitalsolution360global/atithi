@@ -20,6 +20,14 @@ const posts = [
       "Planning a medical trip to Pratiksha Hospital? Discover why Atithi Home is the best budget-friendly stay just a few minutes away.",
     image: "/assets/img6.jpeg",
   },
+  {
+  slug: "top-reasons-budget-hotel-guwahati-near-vip-road",
+  title: "Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road",
+  date: "05 Mar 2026",
+  excerpt:
+    "Save more on your trip! Find the ultimate cheap hotel in Guwahati near VIP Road with Atithi Homes. Comfortable bedding and private kitchens are available for long stays.",
+  image: "/assets/img6.jpeg",
+}
 ];
 
 export default function BlogListPage() {
