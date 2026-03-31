@@ -12,6 +12,18 @@ export default function GalleryPage() {
     "/assets/gallery/s3.jpg",
     "/assets/gallery/s4.jpg",
     "/assets/gallery/s5.jpg",
+    "/assets/gallery/s6.jpeg",
+    "/assets/gallery/s7.jpeg",
+    "/assets/gallery/s8.jpeg",
+    "/assets/gallery/s9.jpeg",
+    "/assets/gallery/s10.jpeg",
+    "/assets/gallery/s11.jpeg",
+    "/assets/gallery/s12.jpeg",
+    "/assets/gallery/s13.jpeg",
+    "/assets/gallery/s14.jpeg",
+    "/assets/gallery/s15.jpeg",
+    "/assets/gallery/s16.jpeg",
+    "/assets/gallery/s17.jpeg",
   ];
 
   return (
