@@ -41,7 +41,6 @@ const posts = [
 export default function BlogListPage() {
   return (
     <>
-      {/* Blog hero like reference image */}
       <section className="relative bg-[#7b1230] text-white pt-24 pb-16">
         <div className="absolute inset-0 opacity-40">
           <Image
@@ -74,7 +73,6 @@ export default function BlogListPage() {
 
       <main className="bg-gray-50 min-h-screen py-16">
         <section className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
-          {/* Heading */}
           <div className="text-center mb-12">
             <p className="text-sm md:text-base tracking-[0.25em] uppercase text-[#1E3A8A] font-semibold">
               News & Health Tips
@@ -85,7 +83,6 @@ export default function BlogListPage() {
             <div className="mt-3 w-24 h-1.5 bg-[#1E3A8A] mx-auto rounded-full" />
           </div>
 
-          {/* Blog cards */}
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((post) => (
               <Link
