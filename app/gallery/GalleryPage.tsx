@@ -47,7 +47,7 @@ export default function GalleryPage() {
             Our Gallery
           </h1>
           <p className="text-white mt-4 text-lg md:text-xl opacity-90">
-            Capturing elegance, luxury & unforgettable moments
+            Capturing elegance, luxury & unforgettable moments 
           </p>
         </div>
       </section>
