@@ -21,13 +21,21 @@ const posts = [
     image: "/assets/img6.jpeg",
   },
   {
-  slug: "top-reasons-budget-hotel-guwahati-near-vip-road",
-  title: "Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road",
-  date: "05 Mar 2026",
-  excerpt:
-    "Save more on your trip! Find the ultimate cheap hotel in Guwahati near VIP Road with Atithi Homes. Comfortable bedding and private kitchens are available for long stays.",
-  image: "/assets/img6.jpeg",
-}
+    slug: "top-reasons-budget-hotel-guwahati-near-vip-road",
+    title: "Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road",
+    date: "05 Mar 2026",
+    excerpt:
+      "Save more on your trip! Find the ultimate cheap hotel in Guwahati near VIP Road with Atithi Homes. Comfortable bedding and private kitchens are available for long stays.",
+    image: "/assets/img6.jpeg",
+  },
+  {
+    slug: "24-hours-hotel-guwahati",
+    title: "Looking for a 24 Hours Hotel in Guwahati? Here’s What You Should Know",
+    date: "31 Mar 2026",
+    excerpt:
+      "Guwahati is a place of buzz and comfort in the Northeast of India. This is a city that grabs the attention of many tourists with its late-night views, delayed rain, and many pleasant locations worthy of a visit.",
+    image: "/assets/blog_24h_hotel.png",
+  }
 ];
 
 export default function BlogListPage() {
