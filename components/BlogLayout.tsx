@@ -32,6 +32,7 @@ interface BlogLayoutProps {
   sections: Section[];
   faqs: FAQ[];
   heroImage?: string;
+  introTitle?: string;
 }
 
 export default function BlogLayout({
@@ -42,6 +43,7 @@ export default function BlogLayout({
   sections,
   faqs,
   heroImage = "/assets/images/home-img1.jpg",
+  introTitle,
 }: BlogLayoutProps) {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
   const [enquiry, setEnquiry] = useState({ name: "", email: "", mobile: "", message: "" });
@@ -144,7 +146,7 @@ export default function BlogLayout({
             {/* Intro – white background, drop cap */}
             <section className="relative p-10 md:p-14 bg-gray-50/80 rounded-2xl shadow-sm border border-gray-100">
               <span className="text-[#1E3A8A] font-bold tracking-[0.2em] uppercase text-sm">Introduction</span>
-              <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">Why your stay matters</h2>
+              <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">{introTitle || "Why your stay matters"}</h2>
               <div className="mt-8">
                  <p 
                    className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6"

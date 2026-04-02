@@ -14,6 +14,7 @@ const blogData = {
   title: "Looking for a 24 Hours Hotel in Guwahati? Here’s What You Should Know",
   date: "31 Mar 2026",
   mainImage: "/assets/blog_24h_hotel.png",
+  introTitle: "Why Atithi Homes is the Best 24 Hour Hotel in Guwahati",
   introduction: "Guwahati is a place of buzz and comfort in the Northeast of India. This is a city that grabs the attention of many tourists with its late-night views, delayed rain, and many pleasant locations worthy of a visit. <br/><br/>However, in any medical emergency that appears uncertain, many hotels are not located near the finest hospitals of Guwahati to attend to these cases. But the case of Atithi Homes is different. <br/><br/>As a premier 24-hour hotel in Guwahati, Atithi Homes bridges the gaps between standard lodging and finest hospitality. We offer the flexibility that contributes to our services in on-time check-ins and check-outs. <br/><br/>Worries no more about any medical emergency – contact <a href=\"/\" class=\"text-[#1E3A8A] font-bold hover:underline\">Atithi Home</a> Guwahati today and book your stay without the clock-watching!",
   sections: [
     {
