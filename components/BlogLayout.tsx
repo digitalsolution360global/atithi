@@ -146,9 +146,10 @@ export default function BlogLayout({
               <span className="text-[#1E3A8A] font-bold tracking-[0.2em] uppercase text-sm">Introduction</span>
               <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">Why your stay matters</h2>
               <div className="mt-8">
-                 <p className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6">
-                   {introduction}
-                 </p>
+                 <p 
+                   className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6"
+                   dangerouslySetInnerHTML={{ __html: introduction }}
+                 />
               </div>
             </section>
 
@@ -167,7 +168,7 @@ export default function BlogLayout({
                        ))}
                      </ul>
                    ) : (
-                     <p>{section.content}</p>
+                     <div dangerouslySetInnerHTML={{ __html: section.content as string }} />
                    )}
                 </div>
               </section>
@@ -196,9 +197,10 @@ export default function BlogLayout({
                         <span className={`text-xl transition-transform ${isOpen ? "rotate-180" : ""}`}>▾</span>
                       </button>
                       {isOpen && (
-                        <div className="px-6 py-4 text-gray-700 leading-relaxed bg-white">
-                          {faq.a}
-                        </div>
+                        <div 
+                          className="px-6 py-4 text-gray-700 leading-relaxed bg-white"
+                          dangerouslySetInnerHTML={{ __html: faq.a }}
+                        />
                       )}
                     </div>
                   );
