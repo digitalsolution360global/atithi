@@ -2,7 +2,7 @@
 import BlogSection from "@/components/home/BlogSection";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-
+ 
 export default function AboutPage() {
   // Counter targets
   const stats = [
