@@ -21,6 +21,14 @@ const posts = [
     image: "/assets/img6.jpeg",
   },
   {
+    slug: "best-homestay-guwahati-for-long-stays",
+    title: "Why Atithi Home is the Perfect Choice for Long-Stay Accommodation in Guwahati",
+    date: "20 Feb 2026",
+    excerpt:
+      "Home is more than just a place to sleep; it's an environment of comfort and familiarity. When you're traveling for work, family, or personal reasons, a long-stay accommodation shouldn't feel like a temporary stop.",
+    image: "/assets/img6.jpeg",
+  },
+  {
     slug: "top-reasons-budget-hotel-guwahati-near-vip-road",
     title: "Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road",
     date: "05 Mar 2026",
@@ -34,6 +42,14 @@ const posts = [
     date: "31 Mar 2026",
     excerpt:
       "Guwahati is a place of buzz and comfort in the Northeast of India. This is a city that grabs the attention of many tourists with its late-night views, delayed rain, and many pleasant locations worthy of a visit.",
+    image: "/assets/blog_24h_hotel.png",
+  },
+  {
+    slug: "family-stay-in-guwahati-safe-comfortable-hotels-near-vip-road",
+    title: "Family Stay in Guwahati: Safe & Comfortable Hotels Near VIP Road",
+    date: "27 Apr 2026",
+    excerpt:
+      "Want a trip full of beautiful memories and golden moments with your family? Then you visit Guwahati, and the booking at the Atithi Homes can complete every possible thriller you are expecting.",
     image: "/assets/blog_24h_hotel.png",
   }
 ];
@@ -84,7 +100,7 @@ export default function BlogListPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map((post) => (
+            {posts.reverse().map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
