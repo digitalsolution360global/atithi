@@ -51,6 +51,14 @@ const posts = [
     excerpt:
       "Want a trip full of beautiful memories and golden moments with your family? Then you visit Guwahati, and the booking at the Atithi Homes can complete every possible thriller you are expecting.",
     image: "/assets/blog_24h_hotel.png",
+  },
+  {
+    slug: "homestay-in-guwahati-vs-hotel-whats-better-near-pratiksha-hospital",
+    title: "Homestay in Guwahati vs Hotel – What’s Better Near Pratiksha Hospital?",
+    date: "13 May 2026",
+    excerpt:
+      "Accommodation within the Homestay in Guwahati is important in every stay that a passenger always seeks when he or she travels to a perfect destination or any hospital-related stay in Guwahati. At Atithi Homes, we bridge the gap between top-rated hoteling experience and specialized healthcare. ",
+    image: "/assets/blog_24h_hotel.png",
   }
 ];
 
