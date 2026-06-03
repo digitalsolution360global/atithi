@@ -19,42 +19,31 @@ export default function IntroSection() {
         {/* RIGHT CONTENT */}
         <div>
           <h4 className="text-[#1E3A8A] font-semibold tracking-wider uppercase">
-            Your Trusted Stay in Guwahati
+            Your Ideal Stay
           </h4>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl text-black font-extrabold mt-2 leading-tight">
-            Affordable Hotel near{" "}
-            <span className="text-[#FACC15]">Pratiksha Hospital Guwahati</span>
-            <br className="hidden sm:block" />
-            <span className="text-[#1E3A8A]">— Open 24/7</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl text-black font-bold mt-2 leading-tight">
+            Welcome to <span className="text-[#FACC15]">Atithi Homes</span> – Your Ideal Stay
           </h2>
 
-          <p className="mt-6 text-gray-600 leading-relaxed">
-            Welcome to Atithi Home, your trusted Hotel near Pratiksha Hospital Guwahati, offering comfortable, clean, and affordable accommodation in the heart of the city. Conveniently located at Alokpur, Near Pratiksha Hospital, VIP Road, Barbari, Guwahati – 781036, we provide a peaceful and secure stay experience for families, business travelers, and hospital visitors.
+          <h3 className="text-2xl font-bold mt-6 text-[#1E3A8A]">
+            Choosing the Perfect Guest house in Guwahati
+          </h3>
+
+          <p className="mt-4 text-gray-600 leading-relaxed text-lg">
+            Get yourself a perfect treat by finding the right guesthouse in Guwahati. Atithi Homes comes as a prime option that completes all the requirements provided by any luxurious places at a comfortable price.
           </p>
 
           <p className="mt-4 text-gray-600 leading-relaxed">
-            If you are searching for a reliable Budget Hotel in Guwahati that combines comfort, convenience, and affordability, Atithi Home is the perfect choice.
+            It bridges the gaps between expensive, detached hospitality and unpredictable lodging. Time to refuse to compromise on quality and cleanliness. Get the best coziness under a budget accommodation in Guwahati from Atithi Homes.
           </p>
-
-          {/* STATS */}
-          <div className="mt-8 grid grid-cols-2 gap-6">
-            <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-              <h3 className="text-3xl font-bold text-[#1E3A8A]">24/7</h3>
-              <p className="text-gray-600 mt-1 text-sm">Check-in & Support</p>
-            </div>
-            <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-100">
-              <h3 className="text-3xl font-bold text-[#1E3A8A]">Budget</h3>
-              <p className="text-gray-600 mt-1 text-sm">Friendly Stay</p>
-            </div>
-          </div>
 
           <div className="mt-10">
             <a
-              href="/contact"
-              className="inline-block bg-[#FACC15] text-black font-semibold px-6 py-3 rounded-full shadow-md hover:bg-yellow-400 transition duration-300"
+              href="tel:+916000891365"
+              className="inline-block bg-[#FACC15] text-black font-semibold px-8 py-3 rounded-full shadow-md hover:bg-yellow-400 transition duration-300"
             >
-              Book Your Stay
+              Book Atithi Guest House Guwahati
             </a>
           </div>
         </div>

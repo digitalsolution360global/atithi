@@ -59,7 +59,7 @@ export default function RoomsGridSection() {
           <p className="text-[#8B5E34] font-semibold tracking-widest">
             OUR ROOMS
           </p>
-          <h2 className="text-4xl font-extrabold text-gray-900 mt-2">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">
             Choose Your Luxury Stay
           </h2>
         </div>

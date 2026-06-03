@@ -1,11 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { FaPhoneAlt, FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaPhoneAlt, FaWhatsapp, FaFacebookF, FaInstagram, FaYoutube, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-black via-[#050A24] to-[#0A1A45] text-white pt-12 pb-6 relative">
+    <footer className="bg-gradient-to-r from-black via-[#050A24] to-[#0A1A45] text-white pt-12 pb-32 relative">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
 
         {/* LOGO + ABOUT */}
@@ -126,29 +126,35 @@ export default function Footer() {
 </div>
 
 
-      {/* MOBILE FIXED BOTTOM BAR */}
-      <div className="fixed bottom-0 left-0 right-0 md:hidden flex justify-between items-center bg-black/90 px-6 py-3 border-t border-gray-700 z-50">
-        <a href="tel:+916000891365" className="flex items-center text-white space-x-2">
-          <FaPhoneAlt className="text-2xl text-[#FACC15]" />
-          <span className="font-semibold">Call</span>
-        </a>
-        <a
-          href="https://wa.me/916000891365"
-          target="_blank"
-          className="flex items-center bg-[#25D366] text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-green-500 transition"
-        >
-          <FaWhatsapp className="mr-2 text-2xl" />
-          WhatsApp
-        </a>
+      {/* MOBILE FIXED FLOATING ACTIONS */}
+      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 md:hidden z-50">
+        <div className="flex items-center gap-8 bg-black/40 backdrop-blur-xl px-8 py-3 rounded-full border border-white/20 shadow-[0_15px_35px_rgba(0,0,0,0.3)]">
+          {/* CALL ICON */}
+          <a 
+            href="tel:+916000891365" 
+            className="w-12 h-12 bg-white/10 text-white flex items-center justify-center rounded-full hover:bg-white/20 transition-all border border-white/20 animate-float [animation-delay:0.2s]"
+          >
+            <FaPhoneAlt className="text-lg" />
+          </a>
+
+          {/* WHATSAPP ICON (GOAL WALA & ANIMATED) */}
+          <a
+            href="https://wa.me/916000891365"
+            target="_blank"
+            className="w-14 h-14 bg-[#25D366] text-white flex items-center justify-center rounded-full shadow-[0_8px_20px_rgba(37,211,102,0.4)] border-2 border-white animate-float"
+          >
+            <FaWhatsapp className="text-3xl" />
+          </a>
+        </div>
       </div>
 
       {/* DESKTOP FLOATING WHATSAPP BUTTON */}
       <a
         href="https://wa.me/916000891365"
         target="_blank"
-        className="hidden md:flex fixed bottom-10 right-10 bg-[#25D366] text-white px-5 py-4 rounded-full shadow-lg items-center space-x-2 hover:bg-green-500 transition z-50"
+        className="hidden md:flex fixed bottom-10 right-10 w-16 h-16 bg-[#25D366] text-white rounded-full shadow-[0_10px_25px_rgba(37,211,102,0.5)] items-center justify-center hover:bg-green-500 transition-all duration-300 z-50 animate-float border-2 border-white"
       >
-        <FaWhatsapp className="text-3xl" />
+        <FaWhatsapp className="text-4xl" />
       </a>
     </footer>
   );
