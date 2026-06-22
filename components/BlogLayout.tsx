@@ -99,7 +99,7 @@ export default function BlogLayout({
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-[#1E3A8A] via-[#1E3A8A] to-[#1E3A8A]/80" />
 
-        <div className="relative max-w-7xl mx-auto px-6">
+        <div className="relative max-w-7xl mx-auto px-6 p-10">
           <p className="text-sm text-white/80 mb-2">
             <Link href="/" className="hover:underline">
               Home
@@ -114,12 +114,10 @@ export default function BlogLayout({
           <div className="inline-flex items-center gap-2 bg-[#FACC15] text-[#1E3A8A] px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-5">
             <FaMapMarkerAlt /> Atithi Home Guwahati
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight max-w-3xl">
+          <h1 className="text-2xl md:text-2xl lg:text-4xl font-extrabold leading-tight max-w-3xl">
             {title}
           </h1>
-          <p className="mt-4 text-base md:text-lg text-white/90 mb-5 max-w-2xl">
-            Updated: {date} — Stay at Atithi Home with 24/7 service and comfortable rooms near Pratiksha Hospital.
-          </p>
+
         </div>
       </header>
 
@@ -148,10 +146,10 @@ export default function BlogLayout({
               <span className="text-[#1E3A8A] font-bold tracking-[0.2em] uppercase text-sm">Introduction</span>
               <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">{introTitle || "Why your stay matters"}</h2>
               <div className="mt-8">
-                 <p 
-                   className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6"
-                   dangerouslySetInnerHTML={{ __html: introduction }}
-                 />
+                <p
+                  className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6"
+                  dangerouslySetInnerHTML={{ __html: introduction }}
+                />
               </div>
             </section>
 
@@ -160,18 +158,18 @@ export default function BlogLayout({
               <section key={index} className="relative p-10 md:p-14 bg-gray-50/80 rounded-2xl shadow-sm border border-gray-100">
                 <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">{section.title}</h3>
                 <div className="text-gray-700 leading-relaxed text-lg">
-                   {Array.isArray(section.content) ? (
-                     <ul className="space-y-3 pt-2">
-                       {section.content.map((item, i) => (
-                         <li key={i} className="flex items-start gap-3">
-                           <FaCheckCircle className="text-[#1E3A8A] mt-1 shrink-0" />
-                           <span>{item}</span>
-                         </li>
-                       ))}
-                     </ul>
-                   ) : (
-                     <div dangerouslySetInnerHTML={{ __html: section.content as string }} />
-                   )}
+                  {Array.isArray(section.content) ? (
+                    <ul className="space-y-3 pt-2">
+                      {section.content.map((item, i) => (
+                        <li key={i} className="flex items-start gap-3">
+                          <FaCheckCircle className="text-[#1E3A8A] mt-1 shrink-0" />
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <div dangerouslySetInnerHTML={{ __html: section.content as string }} />
+                  )}
                 </div>
               </section>
             ))}
@@ -180,7 +178,7 @@ export default function BlogLayout({
             <section className="py-12 px-10 bg-gray-50/80 rounded-2xl border border-gray-100">
               <div className="flex items-center gap-4 mb-10">
                 <FaQuestionCircle className="text-3xl md:text-4xl text-[#1E3A8A]" />
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">FAQs</h2>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900">FAQs</h2>/
               </div>
 
               <div className="space-y-3">
@@ -191,15 +189,14 @@ export default function BlogLayout({
                       <button
                         type="button"
                         onClick={() => setOpenFaqIndex(isOpen ? null : i)}
-                        className={`w-full flex items-center justify-between px-6 py-4 text-left transition ${
-                          isOpen ? "bg-[#1E3A8A] text-white" : "bg-white text-gray-900 hover:bg-gray-50"
-                        }`}
+                        className={`w-full flex items-center justify-between px-6 py-4 text-left transition ${isOpen ? "bg-[#1E3A8A] text-white" : "bg-white text-gray-900 hover:bg-gray-50"
+                          }`}
                       >
                         <span className="font-semibold">{faq.q}</span>
                         <span className={`text-xl transition-transform ${isOpen ? "rotate-180" : ""}`}>▾</span>
                       </button>
                       {isOpen && (
-                        <div 
+                        <div
                           className="px-6 py-4 text-gray-700 leading-relaxed bg-white"
                           dangerouslySetInnerHTML={{ __html: faq.a }}
                         />

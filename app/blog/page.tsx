@@ -13,6 +13,20 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "things-to-do-in-guwahati-during-your-stay",
+    title: "Things to Do in Guwahati During Your Stay – Atithi Homes",
+    date: "01 Jun 2026",
+    excerpt: "Discover the magic of Guwahati with our ultimate travel itinerary. From ancient temples to river cruises, find the best things to do during your stay at Atithi Guest House.",
+    image: "/assets/img6.jpeg",
+  },
+  {
+    slug: "affordable-hotel-near-pratiksha-hospital-guwahati",
+    title: "Affordable Hotel near Pratiksha Hospital Guwahati: Stay Smartly at Atithi Homes",
+    date: "09 Jun 2026",
+    excerpt: "Looking for a budget-friendly stay near Pratiksha Hospital? Atithi Homes offers clean, safe, and comfortable rooms for medical travelers and families today.",
+    image: "/assets/img1.jpeg",
+  },
+  {
     slug: "best-hotel-near-pratiksha-hospital-guwahati",
     title: "Best Hotel near Pratiksha Hospital Guwahati for Comfortable & Affordable Stay",
     date: "16 Feb 2026",
@@ -108,7 +122,7 @@ export default function BlogListPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {posts.reverse().map((post) => (
+            {[...posts].reverse().map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
@@ -124,15 +138,15 @@ export default function BlogListPage() {
                   />
                 </div>
 
-                <div className="p-6 flex flex-col h-full">
+                <div className="p-6 flex flex-col">
                   <p className="text-sm text-gray-500 mb-2">Date : {post.date}</p>
-                  <h2 className="text-lg md:text-xl font-semibold text-[#1E3A8A] mb-3 leading-snug group-hover:underline">
+                  <h2 className="text-lg md:text-xl font-semibold text-[#1E3A8A] mb-3 leading-snug group-hover:underline line-clamp-2">
                     {post.title}
                   </h2>
-                  <p className="text-gray-600 text-sm md:text-base mb-4 flex-1">
+                  <p className="text-gray-600 text-sm md:text-base mb-4 line-clamp-3">
                     {post.excerpt}
                   </p>
-                  <span className="mt-auto inline-flex items-center gap-1 text-sm font-semibold text-[#1E3A8A] group-hover:text-[#10275c]">
+                  <span className="mt-8 inline-flex items-center gap-1 text-sm font-semibold text-[#1E3A8A] group-hover:text-[#10275c]">
                     Read More
                     <span>→</span>
                   </span>
