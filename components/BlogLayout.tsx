@@ -114,7 +114,7 @@ export default function BlogLayout({
           <div className="inline-flex items-center gap-2 bg-[#FACC15] text-[#1E3A8A] px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-5">
             <FaMapMarkerAlt /> Atithi Home Guwahati
           </div>
-          <h1 className="text-2xl md:text-2xl lg:text-4xl font-extrabold leading-tight max-w-3xl">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight max-w-3xl">
             {title}
           </h1>
 

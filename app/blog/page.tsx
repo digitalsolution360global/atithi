@@ -27,6 +27,13 @@ const posts = [
     image: "/assets/img1.jpeg",
   },
   {
+    slug: "best-hotel-in-guwahati-travelers-guide",
+    title: "How to Choose the Best Hotel in Guwahati : A Complete Guide for Travelers",
+    date: "23 Jun 2026",
+    excerpt: "Discover how to find the best hotel in Guwahati with modern amenities, comfortable family rooms, and exceptional services at highly affordable prices.",
+    image: "/assets/best_hotel_guwahati_guide.png",
+  },
+  {
     slug: "best-hotel-near-pratiksha-hospital-guwahati",
     title: "Best Hotel near Pratiksha Hospital Guwahati for Comfortable & Affordable Stay",
     date: "16 Feb 2026",

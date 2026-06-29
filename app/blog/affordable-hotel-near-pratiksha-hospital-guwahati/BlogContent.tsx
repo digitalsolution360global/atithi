@@ -56,8 +56,8 @@ export default function BlogContent() {
           <div className="inline-flex items-center gap-2 bg-[#FACC15] text-[#1E3A8A] px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-6">
             <FaMapMarkerAlt /> Atithi Home Guwahati
           </div>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight max-w-4xl">
-            Affordable Hotel near Pratiksha Hospital Guwahati – Atithi Homes – 9 Jun 2026
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight max-w-4xl">
+            Affordable Hotel near Pratiksha Hospital Guwahati
           </h1>
         </div>
       </header>
@@ -183,7 +183,7 @@ export default function BlogContent() {
                   </Link>
                 </div>
               </div>
-              
+
               <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Quick Links</h3>
                 <ul className="space-y-3">
