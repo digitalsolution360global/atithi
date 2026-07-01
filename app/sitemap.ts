@@ -94,5 +94,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.64,
     },
+
+    {
+      url: `${baseUrl}/blog/things-to-do-in-guwahati-during-your-stay`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.64,
+    },
+
+    {
+      url: `${baseUrl}/blog/affordable-hotel-near-pratiksha-hospital-guwahati`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.64,
+    },
+
+    {
+      url: `${baseUrl}/blog/best-hotel-in-guwahati-travelers-guide`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.64,
+    },
+
+    {
+      url: `${baseUrl}/blog/luxury-stay-affordable-prices-guwahati`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.64,
+    },
   ]
 }

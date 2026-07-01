@@ -17,21 +17,21 @@ const posts = [
     title: "Things to Do in Guwahati During Your Stay – Atithi Homes",
     date: "01 Jun 2026",
     excerpt: "Discover the magic of Guwahati with our ultimate travel itinerary. From ancient temples to river cruises, find the best things to do during your stay at Atithi Guest House.",
-    image: "/assets/img6.jpeg",
+    image: "/assets/things-to-do-in-guwahati-during-your-stay.webp",
   },
   {
     slug: "affordable-hotel-near-pratiksha-hospital-guwahati",
     title: "Affordable Hotel near Pratiksha Hospital Guwahati: Stay Smartly at Atithi Homes",
     date: "09 Jun 2026",
     excerpt: "Looking for a budget-friendly stay near Pratiksha Hospital? Atithi Homes offers clean, safe, and comfortable rooms for medical travelers and families today.",
-    image: "/assets/img1.jpeg",
+    image: "/assets/affordable-hotel-near-pratiksha-hospital-guwahati.webp",
   },
   {
     slug: "best-hotel-in-guwahati-travelers-guide",
     title: "How to Choose the Best Hotel in Guwahati : A Complete Guide for Travelers",
     date: "23 Jun 2026",
     excerpt: "Discover how to find the best hotel in Guwahati with modern amenities, comfortable family rooms, and exceptional services at highly affordable prices.",
-    image: "/assets/best_hotel_guwahati_guide.png",
+    image: "/assets/best-hotel-in-guwahati-travelers-guide.webp",
   },
   {
     slug: "best-hotel-near-pratiksha-hospital-guwahati",
@@ -39,7 +39,7 @@ const posts = [
     date: "16 Feb 2026",
     excerpt:
       "Planning a medical trip to Pratiksha Hospital? Discover why Atithi Home is the best budget-friendly stay just a few minutes away.",
-    image: "/assets/img6.jpeg",
+    image: "/assets/best-hotel-near-pratiksha-hospital-guwahati.webp",
   },
   {
     slug: "best-homestay-guwahati-for-long-stays",
@@ -47,7 +47,7 @@ const posts = [
     date: "20 Feb 2026",
     excerpt:
       "Home is more than just a place to sleep; it's an environment of comfort and familiarity. When you're traveling for work, family, or personal reasons, a long-stay accommodation shouldn't feel like a temporary stop.",
-    image: "/assets/img6.jpeg",
+    image: "/assets/best-homestay-guwahati-for-long-stays.webp",
   },
   {
     slug: "top-reasons-budget-hotel-guwahati-near-vip-road",
@@ -55,7 +55,7 @@ const posts = [
     date: "05 Mar 2026",
     excerpt:
       "Save more on your trip! Find the ultimate cheap hotel in Guwahati near VIP Road with Atithi Homes. Comfortable bedding and private kitchens are available for long stays.",
-    image: "/assets/img6.jpeg",
+    image: "/assets/top-reasons-budget-hotel-guwahati-near-vip-road.webp",
   },
   {
     slug: "24-hours-hotel-guwahati",
@@ -63,7 +63,7 @@ const posts = [
     date: "31 Mar 2026",
     excerpt:
       "Guwahati is a place of buzz and comfort in the Northeast of India. This is a city that grabs the attention of many tourists with its late-night views, delayed rain, and many pleasant locations worthy of a visit.",
-    image: "/assets/blog_24h_hotel.png",
+    image: "/assets/24-hours-hotel-guwahati (1).webp",
   },
   {
     slug: "family-stay-in-guwahati-safe-comfortable-hotels-near-vip-road",
@@ -71,7 +71,7 @@ const posts = [
     date: "27 Apr 2026",
     excerpt:
       "Want a trip full of beautiful memories and golden moments with your family? Then you visit Guwahati, and the booking at the Atithi Homes can complete every possible thriller you are expecting.",
-    image: "/assets/blog_24h_hotel.png",
+    image: "/assets/family-stay-in-guwahati-safe-comfortable-hotels-near-vip-road.webp",
   },
   {
     slug: "homestay-in-guwahati-vs-hotel-whats-better-near-pratiksha-hospital",
@@ -79,7 +79,15 @@ const posts = [
     date: "13 May 2026",
     excerpt:
       "Accommodation within the Homestay in Guwahati is important in every stay that a passenger always seeks when he or she travels to a perfect destination or any hospital-related stay in Guwahati. At Atithi Homes, we bridge the gap between top-rated hoteling experience and specialized healthcare. ",
-    image: "/assets/blog_24h_hotel.png",
+    image: "/assets/homestay-in-guwahati-vs-hotel-whats-better-near-pratiksha-hospital (1).webp",
+  },
+  {
+    slug: "luxury-stay-affordable-prices-guwahati",
+    title: "Luxury Stay at Affordable Prices in Guwahati",
+    date: "30 Jun 2026",
+    excerpt:
+      "Discover a stunning luxury stay at affordable prices in Guwahati. Enjoy premium amenities, serene vibes, and unmatched comfort right in the heart of the city.",
+    image: "/assets/img3.jpeg",
   }
 ];
 
@@ -135,12 +143,12 @@ export default function BlogListPage() {
                 href={`/blog/${post.slug}`}
                 className="group bg-white rounded-2xl shadow-md hover:shadow-xl overflow-hidden border border-gray-100 transition-transform hover:-translate-y-1 flex flex-col"
               >
-                <div className="relative h-52 md:h-56">
+                <div className="relative w-full aspect-[1.71/1] overflow-hidden">
                   <Image
                     src={post.image}
                     alt={post.title}
                     fill
-                    className="object-cover group-hover:scale-[1.03] transition-transform"
+                    className="object-cover object-left group-hover:scale-[1.03] transition-transform"
                     sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>

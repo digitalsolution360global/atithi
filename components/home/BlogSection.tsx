@@ -28,7 +28,7 @@ export default function BlogSection() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
-        
+
         {/* Heading */}
         <div className="md:text-center mb-12">
           <p className="text-lg tracking-widest text-[#C9A86A] font-semibold">
