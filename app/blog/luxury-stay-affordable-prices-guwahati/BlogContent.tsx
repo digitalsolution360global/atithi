@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -75,10 +75,10 @@ export default function BlogContent() {
               </h2>
               <div className="text-gray-800 text-lg leading-relaxed space-y-6">
                 <p>
-                  When you are in search of a true luxury stay at affordable prices in Guwahati, then one name comes first. Yes, it is Atithi Homes. This is the best place where you can enjoy Assam’s beauty.
+                  When you are in search of a true <Link href="https://www.atithihome.com/services" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">luxury stay at affordable prices in Guwahati</Link>, then one name comes first. Yes, it is Atithi Homes. This is the best place where you can enjoy Assam’s beauty.
                 </p>
                 <p>
-                  At Atithi Guest House Guwahati, we transform standard travel into an exquisite experience. When users choose us, they understand why we are the right budget hotel in Guwahati that offers them the best experience without compromising on elegance. 
+                  At <Link href="https://www.atithihome.com/" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">Atithi Guest House Guwahati</Link>, we transform standard travel into an exquisite experience. When users choose us, they understand why we are the right budget hotel in Guwahati that offers them the best experience without compromising on elegance. 
                 </p>
               </div>
             </section>
@@ -185,7 +185,7 @@ export default function BlogContent() {
                   When you plan your stay in Guwahati, Atithi Guest House Guwahati stands out as the prime choice. Here, you get an affordable hotel in Guwahati and embrace the ultimate getaway with premium features, stunning rooms, and exceptional local service.
                 </p>
                 <p>
-                  Book your affordable luxury room now and elevate your journey!
+                  <Link href="https://www.atithihome.com/contact" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">Book your affordable luxury room now and elevate your journey!</Link>
                 </p>
               </div>
             </section>
