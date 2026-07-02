@@ -38,7 +38,7 @@ export default function BlogContent() {
   return (
     <article className="min-h-screen bg-white text-gray-900 antialiased">
       {/* Header Section */}
-      <header className="relative bg-[#1E3A8A] text-white pt-24 pb-16">
+      <header className="relative bg-[#1E3A8A] text-white pt-4 pb-5 md:pb-18">
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/assets/best_hotel_guwahati_guide.png"
@@ -68,7 +68,7 @@ export default function BlogContent() {
           {/* Content Column - White Background with Border */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
             {/* Blog Main Image */}
-            <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-10 shadow-md">
+            <div className="relative -mx-8 -mt-8 md:-mx-12 md:-mt-12 h-64 md:h-80 lg:h-105 rounded-t-2xl overflow-hidden mb-10 shadow-md">
               <Image
                 src="/assets/best-hotel-in-guwahati-travelers-guide.webp"
                 alt="Best Hotel in Guwahati Travelers Guide - Atithi Homes"
@@ -78,7 +78,7 @@ export default function BlogContent() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1E3A8A]/30 to-transparent" />
             </div>
-            
+
             <section className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 border-b-2 border-gray-100 pb-2">Introduction</h2>
               <div className="text-gray-800 text-lg leading-relaxed space-y-6">
@@ -125,7 +125,7 @@ export default function BlogContent() {
                 </p>
               </div>
             </section>
-            
+
             <section className="mb-14">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 border-b-2 border-gray-100 pb-2">Location Strategy: Staying Near VIP Road and Key Landmarks</h2>
               <div className="text-gray-700 text-lg leading-relaxed space-y-6">
@@ -204,7 +204,7 @@ export default function BlogContent() {
                   </Link>
                 </div>
               </div>
-              
+
               <div className="bg-gray-50 p-8 rounded-2xl border border-gray-100">
                 <h3 className="text-lg font-bold text-gray-900 mb-4">Quick Links</h3>
                 <ul className="space-y-3">

@@ -20,7 +20,7 @@ export default function Header() {
           <img
             src="/assets/atithi.png"
             alt="Atithi Logo"
-            className="w-40 h-150 object-contain"
+            className="w-40 h-10 object-contain"
           />
         </Link>
 

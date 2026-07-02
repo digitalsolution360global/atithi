@@ -38,7 +38,7 @@ export default function BlogContent() {
   return (
     <article className="min-h-screen bg-white text-gray-900 antialiased">
       {/* Header Section */}
-      <header className="relative bg-[#1E3A8A] text-white pt-24 pb-16">
+      <header className="relative bg-[#1E3A8A] text-white pt-4 pb-5 md:pb-18">
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/assets/img1.jpeg"
@@ -68,7 +68,7 @@ export default function BlogContent() {
           {/* Content Column - White Background with Border */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
             {/* Blog Main Image */}
-            <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-10 shadow-md">
+            <div className="relative -mx-8 -mt-8 md:-mx-12 md:-mt-12 h-64 md:h-80 lg:h-105 rounded-t-2xl overflow-hidden mb-10 shadow-md">
               <Image
                 src="/assets/affordable-hotel-near-pratiksha-hospital-guwahati.webp"
                 alt="Affordable Hotel near Pratiksha Hospital Guwahati - Atithi Homes"

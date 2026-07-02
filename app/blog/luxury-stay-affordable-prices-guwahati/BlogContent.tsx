@@ -38,7 +38,7 @@ export default function BlogContent() {
   return (
     <article className="min-h-screen bg-white text-gray-900 antialiased">
       {/* Header Section */}
-      <header className="relative bg-[#1E3A8A] text-white pt-24 pb-16">
+      <header className="relative bg-[#1E3A8A] text-white pt-4 pb-5 md:pb-18">
         <div className="absolute inset-0 opacity-20">
           <Image
             src="/assets/img3.jpeg"
@@ -68,7 +68,7 @@ export default function BlogContent() {
           {/* Content Column - White Background with Border */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
             {/* Blog Main Image */}
-            <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-10 shadow-md">
+            <div className="relative -mx-8 -mt-8 md:-mx-12 md:-mt-12 h-64 md:h-80 lg:h-96 rounded-t-2xl overflow-hidden mb-10 shadow-md">
               <Image
                 src="/assets/img3.jpeg"
                 alt="Luxury Stay at Affordable Prices in Guwahati - Atithi Homes"
@@ -89,7 +89,7 @@ export default function BlogContent() {
                   When you are in search of a true <Link href="https://www.atithihome.com/services" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">luxury stay at affordable prices in Guwahati</Link>, then one name comes first. Yes, it is Atithi Homes. This is the best place where you can enjoy Assam’s beauty.
                 </p>
                 <p>
-                  At <Link href="https://www.atithihome.com/" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">Atithi Guest House Guwahati</Link>, we transform standard travel into an exquisite experience. When users choose us, they understand why we are the right budget hotel in Guwahati that offers them the best experience without compromising on elegance. 
+                  At <Link href="https://www.atithihome.com/" className="text-blue-700 underline hover:text-blue-900" target="_blank" rel="noopener noreferrer">Atithi Guest House Guwahati</Link>, we transform standard travel into an exquisite experience. When users choose us, they understand why we are the right budget hotel in Guwahati that offers them the best experience without compromising on elegance.
                 </p>
               </div>
             </section>

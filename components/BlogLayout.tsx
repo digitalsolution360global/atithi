@@ -82,7 +82,7 @@ export default function BlogLayout({
   return (
     <article className="min-h-screen bg-white text-gray-900 antialiased">
       {/* Hero banner for blog detail */}
-      <header className="relative bg-[#1E3A8A] text-white pt-20 pb-14 md:pb-18">
+      <header className="relative bg-[#1E3A8A] text-white pt-4 pb-5 md:pb-18">
         <div className="absolute inset-0 opacity-25">
           <Image
             src={heroImage}
@@ -123,27 +123,27 @@ export default function BlogLayout({
       <div className="max-w-7xl mx-auto px-6 mt-12 mb-16">
 
         <div className="grid lg:grid-cols-[1fr_360px] gap-8 lg:gap-10 pb-8 md:pb-10">
+          {/* Main content - White Background with Border (All in one box) */}
+          <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
+            {/* Blog Main Image */}
+            <div className="relative -mx-8 -mt-8 md:-mx-12 md:-mt-12 h-64 md:h-80 lg:h-105 rounded-t-2xl overflow-hidden mb-10 shadow-md">
+              <Image
+                src={mainImage}
+                alt={title}
+                fill
+                className={`object-cover ${mainImage.includes("top-reasons-budget-hotel") ? "object-top" : ""
+                  }`}
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1E3A8A]/30 to-transparent" />
+            </div>
 
-          {/* Main content */}
-          <div className="space-y-10">
-
-            {/* Intro – white background, drop cap */}
-            <section className="relative p-10 md:p-14 bg-gray-50/80 rounded-2xl shadow-sm border border-gray-100">
-              {/* Blog Main Image */}
-              <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-8 shadow-md -mx-0">
-                <Image
-                  src={mainImage}
-                  alt={title}
-                  fill
-                  className="object-cover"
-                  priority
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#1E3A8A]/30 to-transparent" />
-              </div>
-              <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">{introTitle || "Why your stay matters"}</h2>
-              <div className="mt-8">
+            {/* Intro */}
+            <section className="mb-12">
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">{introTitle || "Why your stay matters"}</h2>
+              <div className="mt-6">
                 <p
-                  className="text-gray-700 leading-relaxed text-lg md:text-xl italic border-l-4 border-[#FACC15] pl-6"
+                  className="text-gray-700 leading-relaxed text-lg md:text-xl italic"
                   dangerouslySetInnerHTML={{ __html: introduction }}
                 />
               </div>
@@ -151,8 +151,8 @@ export default function BlogLayout({
 
             {/* Dynamic Sections */}
             {sections.map((section, index) => (
-              <section key={index} className="relative p-10 md:p-14 bg-gray-50/80 rounded-2xl shadow-sm border border-gray-100">
-                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">{section.title}</h3>
+              <section key={index} className="mb-14">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 border-b-2 border-gray-100 pb-2">{section.title}</h3>
                 <div className="text-gray-700 leading-relaxed text-lg">
                   {Array.isArray(section.content) ? (
                     <ul className="space-y-3 pt-2">
@@ -171,7 +171,7 @@ export default function BlogLayout({
             ))}
 
             {/* FAQ Sections */}
-            <section className="py-12 px-10 bg-gray-50/80 rounded-2xl border border-gray-100">
+            <section className="mt-16 pt-12 border-t border-gray-100">
               <div className="flex items-center gap-4 mb-10">
                 <FaQuestionCircle className="text-3xl md:text-4xl text-[#1E3A8A]" />
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900">FAQs</h2>/
