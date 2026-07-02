@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const blogData = {
   title: "Top Reasons to Choose a Budget Hotel in Guwahati Near VIP Road",
   date: "05 Mar 2026",
-  mainImage: "/assets/img6.jpeg",
+  mainImage: "/assets/top-reasons-budget-hotel-guwahati-near-vip-road.webp",
   introduction: "Welcome to the destination, where the Brahmaputra is the source of joy. The river flows to show its grace upon the city of Guwahati, Assam. The uniqueness of Guwahati can be clearly visible when you plan your stay at a beautiful place. However, finding a Budget Hotel in Guwahati is a challenging part. Among all the searches, VIP Road is the only area that has evolved rapidly and become a traveler's favorite spot.",
   sections: [
     {

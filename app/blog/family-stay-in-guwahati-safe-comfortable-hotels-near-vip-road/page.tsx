@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const blogData = {
   title: "Family Stay in Guwahati: Safe & Comfortable Hotels Near VIP Road",
   date: "27 Apr 2026",
-  mainImage: "/assets/blog_24h_hotel.png",
+  mainImage: "/assets/family-stay-in-guwahati-safe-comfortable-hotels-near-vip-road.webp",
   introTitle: "The Best Family Stay in Guwahati: Safe & Comfortable Hotels Near VIP Road",
   introduction: "Want a trip full of beautiful memories and golden moments with your family? Then you visit Guwahati, and the booking at the Atithi Homes can complete every possible thriller you are expecting. <br/><br/><a href=\"/\" class=\"text-[#1E3A8A] font-bold hover:underline\">At Athithi Home Guwahati</a>, we offer premium accommodation and a perfect experience for those who seek a Safe family hotel near VIP Road Guwahati. That’s how we make your visit smooth and memorable for your healthcare trip to Guwahati. <br/><br/>As we have rooms that are near Pratiksha Hospital, you can get easy access to your family and relatives who are under treatment there. Also, from cool comfort to suitable AC rooms in Guwahati, we make your trip smooth and enjoyable with your family. <br/><br/>For room inquiries – <a href=\"/contact\" class=\"text-[#1E3A8A] font-bold hover:underline\">call Atithi Homes Guwahati Now!</a>",
    sections: [

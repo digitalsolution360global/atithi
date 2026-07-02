@@ -67,6 +67,18 @@ export default function BlogContent() {
         <div className="grid lg:grid-cols-[1fr_360px] gap-12">
           {/* Content Column - White Background with Border */}
           <div className="bg-white border border-gray-200 rounded-2xl p-8 md:p-12 shadow-sm">
+            {/* Blog Main Image */}
+            <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-10 shadow-md">
+              <Image
+                src="/assets/affordable-hotel-near-pratiksha-hospital-guwahati.webp"
+                alt="Affordable Hotel near Pratiksha Hospital Guwahati - Atithi Homes"
+                fill
+                className="object-cover"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1E3A8A]/30 to-transparent" />
+            </div>
+
             {/* Stay Smartly */}
             <section className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Affordable Hotel near Pratiksha Hospital Guwahati: Stay Smartly at Atithi Homes</h2>

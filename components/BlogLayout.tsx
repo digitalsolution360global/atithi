@@ -77,12 +77,7 @@ export default function BlogLayout({
     setEnquiryLoading(false);
   };
 
-  const highlights = [
-    { icon: FaMapMarkerAlt, label: "Walking distance", value: "2–5 min" },
-    { icon: FaClock, label: "Open", value: "24/7" },
-    { icon: FaRupeeSign, label: "Budget", value: "Friendly" },
-    { icon: FaShieldAlt, label: "Safe", value: "Families" },
-  ];
+
 
   return (
     <article className="min-h-screen bg-white text-gray-900 antialiased">
@@ -122,28 +117,29 @@ export default function BlogLayout({
       </header>
 
       {/* Highlight bar – white card */}
-      <section className="relative z-10 -mt-20 mx-4 md:mx-8 lg:mx-16">
-        <div className="max-w-7xl mx-auto bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {highlights.map((h, i) => (
-            <div key={i} className="text-center">
-              <div className="w-14 h-14 mx-auto rounded-2xl bg-[#1E3A8A] text-[#FACC15] flex items-center justify-center text-2xl mb-3">
-                <h.icon />
-              </div>
-              <p className="font-bold text-lg text-gray-900">{h.value}</p>
-              <p className="text-sm text-gray-500">{h.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+
 
       {/* Main content + right sidebar enquiry */}
       <div className="max-w-7xl mx-auto px-6 mt-12 mb-16">
+
         <div className="grid lg:grid-cols-[1fr_360px] gap-8 lg:gap-10 pb-8 md:pb-10">
+
           {/* Main content */}
           <div className="space-y-10">
+
             {/* Intro – white background, drop cap */}
             <section className="relative p-10 md:p-14 bg-gray-50/80 rounded-2xl shadow-sm border border-gray-100">
-              <span className="text-[#1E3A8A] font-bold tracking-[0.2em] uppercase text-sm">Introduction</span>
+              {/* Blog Main Image */}
+              <div className="relative w-full h-64 md:h-80 lg:h-96 rounded-2xl overflow-hidden mb-8 shadow-md -mx-0">
+                <Image
+                  src={mainImage}
+                  alt={title}
+                  fill
+                  className="object-cover"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1E3A8A]/30 to-transparent" />
+              </div>
               <h2 className="mt-2 text-3xl md:text-4xl font-bold text-gray-900">{introTitle || "Why your stay matters"}</h2>
               <div className="mt-8">
                 <p

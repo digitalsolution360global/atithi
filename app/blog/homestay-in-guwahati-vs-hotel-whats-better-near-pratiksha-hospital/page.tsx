@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const blogData = {
   title: "Atithi Homes: Your Gateway to Comfort",
   date: "13 May 2026",
-  mainImage: "/assets/blog_24h_hotel.png",
+  mainImage: "/assets/homestay-in-guwahati-vs-hotel-whats-better-near-pratiksha-hospital (1).webp",
   introTitle: "Atithi Homes: Your Gateway to Comfort",
   introduction: `Accommodation within the Homestay in Guwahati is important in every stay that a passenger always seeks when he or she travels to a perfect destination or any hospital-related stay in Guwahati. At <a href=\"/\" class=\"text-[#1E3A8A] font-bold hover:underline\">Atithi Homes</a>, we bridge the gap between top-rated hoteling experience and specialized healthcare. <br/><br/>For those seeking a <a href=\"/services\" class=\"text-[#1E3A8A] font-bold hover:underline\">guest house near Pratiksha Hospital</a>, Atithi Homes provides a specialized experience. Our hoteling services outweigh the standardized services of luxury chains. <br/><br/>In these areas, we provide a superior choice for patients, families, and travelers alike. Time to get a more cost-effective experience than a standard hotel, specifically for those visiting Pratiksha Hospital. <br/><br/>Experience the warmth of local hospitality at Atithi Homes—<a href=\"/contact\" class=\"text-[#1E3A8A] font-bold hover:underline\">book your peaceful retreat today</a>!`,
   sections: [

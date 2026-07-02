@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const blogData = {
   title: "Best Hotel near Pratiksha Hospital Guwahati for Comfortable & Affordable Stay",
   date: "16 Feb 2026",
-  mainImage: "/assets/img6.jpeg",
+  mainImage: "/assets/best-hotel-near-pratiksha-hospital-guwahati.webp",
   introduction: "A medical trip is something you cannot negotiate at all! People who travel from their native place to receive top-tier treatment from nearby hospitals in Guwahati should take care of their stay before it's too late. Finding the right and comfortable stay near Pratiksha hospital isn't difficult anymore. It's Atithi Home Guwahati that offers the best accommodation for patients' attendants at Pratiksha Hospital.",
   sections: [
     {

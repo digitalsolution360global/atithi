@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 const blogData = {
   title: "Why Atithi Home is the Perfect Choice for Long-Stay Accommodation in Guwahati",
   date: "20 Feb 2026",
-  mainImage: "/assets/blog_homestay_comfort.png",
+  mainImage: "/assets/best-homestay-guwahati-for-long-stays.webp",
   introduction: "Home is more than just a place to sleep; it's an environment of comfort and familiarity. When you're traveling for work, family, or personal reasons, a long-stay accommodation shouldn't feel like a temporary stop. Traditional hotels often lack the personal touch and flexibility needed for extended visits. Atithi Home fills this gap by offering a homestay-style experience with the professional service of a premium hotel.",
   sections: [
     {
