@@ -16,7 +16,7 @@ export default function LocationSection() {
                 alt="Atithi Homes Location"
                 width={600}
                 height={450}
-                className="w-full h-90 object-cover"
+                className="w-full h-50 lg:h-90 object-cover"
               />
             </div>
             {/* Decorative blob */}

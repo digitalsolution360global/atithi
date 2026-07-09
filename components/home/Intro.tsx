@@ -7,7 +7,7 @@ export default function IntroSection() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* LEFT IMAGE */}
-        <div className="relative w-full h-[350px] rounded-2xl overflow-hidden shadow-xl">
+        <div className="relative w-full lg:h-[350px] h-[200px] rounded-2xl overflow-hidden shadow-xl">
           <Image
             src="/assets/affordable-hotel-guwahati.webp"
             alt="Atithi Home - Hotel near Pratiksha Hospital Guwahati"

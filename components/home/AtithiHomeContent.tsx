@@ -39,7 +39,7 @@ export default function AtithiHomeContent() {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 relative w-full h-[350px] rounded-3xl overflow-hidden shadow-2xl">
+          <div className="order-1 md:order-2 relative w-full lg:h-[350px] h-[200px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               src="/assets/affordable-hotel-guwahati.webp"
               alt="Affordable Homestay at Atithi Homes"

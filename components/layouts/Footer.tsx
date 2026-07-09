@@ -126,25 +126,38 @@ export default function Footer() {
 </div>
 
 
-      {/* MOBILE FIXED FLOATING ACTIONS */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 md:hidden z-50">
-        <div className="flex items-center gap-8 bg-black/40 backdrop-blur-xl px-8 py-3 rounded-full border border-white/20 shadow-[0_15px_35px_rgba(0,0,0,0.3)]">
-          {/* CALL ICON */}
-          <a 
-            href="tel:+916000891365" 
-            className="w-12 h-12 bg-white/10 text-white flex items-center justify-center rounded-full hover:bg-white/20 transition-all border border-white/20 animate-float [animation-delay:0.2s]"
-          >
-            <FaPhoneAlt className="text-lg" />
-          </a>
+      {/* MOBILE FIXED BOTTOM BAR */}
+      <div className="fixed bottom-0 left-0 right-0 md:hidden z-50 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
+        <div className="flex items-center justify-between px-3 py-2 gap-3">
 
-          {/* WHATSAPP ICON (GOAL WALA & ANIMATED) */}
-          <a
-            href="https://wa.me/916000891365"
-            target="_blank"
-            className="w-14 h-14 bg-[#25D366] text-white flex items-center justify-center rounded-full shadow-[0_8px_20px_rgba(37,211,102,0.4)] border-2 border-white animate-float"
+          {/* CTA BOX - LEFT → goes to /contact */}
+          <Link
+            href="/contact"
+            className="bg-[#0B7A6E] text-white text-sm font-bold px-5 py-3 rounded-xl leading-none hover:bg-[#096560] transition-all shrink-0"
           >
-            <FaWhatsapp className="text-3xl" />
-          </a>
+            Book Atithi
+          </Link>
+
+          {/* ICONS - RIGHT */}
+          <div className="flex items-center gap-3 ml-auto">
+            {/* CALL ICON */}
+            <a
+              href="tel:+916000891365"
+              className="w-11 h-11 bg-gray-100 text-gray-700 flex items-center justify-center rounded-full hover:bg-gray-200 transition-all border border-gray-300"
+            >
+              <FaPhoneAlt className="text-lg" />
+            </a>
+
+            {/* WHATSAPP ICON */}
+            <a
+              href="https://wa.me/916000891365"
+              target="_blank"
+              className="w-11 h-11 bg-[#25D366] text-white flex items-center justify-center rounded-full shadow-[0_4px_12px_rgba(37,211,102,0.4)] border-2 border-white"
+            >
+              <FaWhatsapp className="text-2xl" />
+            </a>
+          </div>
+
         </div>
       </div>
 
