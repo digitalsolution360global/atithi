@@ -6,54 +6,54 @@ import { FaStar } from "react-icons/fa";
 export default function RoomsGridSection() {
   const rooms = [
     {
-      img: "/assets/img1.jpeg",
+      img: "/assets/luxury-homestay-guwahati.webp",
       title: "8424 Padberg Flats",
       subtitle: "Small Metal Room",
       price: "1500/Night - Free Cancellation",
       rating: "good (12)",
     },
     {
-      img: "/assets/img2.jpeg",
+      img: "/assets/luxury-hotel-guwahati.webp",
       title: "43299 Murazik Extension",
       subtitle: "Small Soft Ball Room",
       price: "1500/Night - Free Cancellation",
       rating: "Nice (11)",
     },
     {
-      img: "/assets/img3.jpeg",
+      img: "/assets/premium-stay-guwahati.webp",
       title: "73311 Freida Point",
       subtitle: "Incredible Wooden Room",
       price: "1500/Night - Free Cancellation",
       rating: "Excellent (32)",
     },
     {
-      img: "/assets/img9.jpeg",
+      img: "/assets/hotel-near-vip-road-guwahati.webp",
       title: "Deluxe King Suite",
       subtitle: "Royal Spacious Room",
       price: "1500/Night - Breakfast Included",
       rating: "Very Good (28)",
     },
     {
-      img: "/assets/img10.jpeg",
+      img: "/assets/hotel-guwahati.webp",
       title: "Executive Premium",
       subtitle: "Luxury Modern Room",
       price: "1500/Night - Free Cancellation",
       rating: "Good (19)",
     },
     {
-      img: "/assets/img8.jpeg",
+      img: "/assets/guest-house-guwahati.webp",
       title: "Superior Twin Room",
       subtitle: "Cozy & Comfortable",
       price: "1500/Night - Free Cancellation",
       rating: "Good (21)",
     },
-    
+
   ];
 
   return (
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* Heading */}
         <div className="md:text-center mb-12">
           <p className="text-[#8B5E34] font-semibold tracking-widest">

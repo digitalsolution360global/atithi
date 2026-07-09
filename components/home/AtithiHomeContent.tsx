@@ -16,10 +16,10 @@ export default function AtithiHomeContent() {
             <p className="mt-6 text-gray-700 text-lg leading-relaxed">
               Seeking a productive business stay in Guwahati or a peaceful resting stop? Explore all the options at Atithi Homes and enjoy your trip by exploring more of the landscapes of Northeast India.
             </p>
-            
+
             <div className="mt-8 p-6 bg-amber-50 border-l-4 border-[#FACC15] rounded-r-xl">
               <p className="text-xl font-bold text-[#1E3A8A] italic flex items-center gap-3">
-                <FaHeart className="text-red-500" />
+                {/* <FaHeart className="text-red-500" /> */}
                 “Atithi Devo Bhava” – Treat Every Visitor as our Family!
               </p>
               <p className="mt-2 text-gray-600">
@@ -28,20 +28,20 @@ export default function AtithiHomeContent() {
             </div>
 
             <div className="mt-10 flex gap-4">
-               <div className="flex flex-col items-center p-4 bg-gray-50 rounded-2xl w-32 shadow-sm border border-gray-100">
-                  <FaBusinessTime className="text-3xl text-[#1E3A8A] mb-2" />
-                  <span className="text-xs font-semibold text-gray-700">Business Stay</span>
-               </div>
-               <div className="flex flex-col items-center p-4 bg-gray-50 rounded-2xl w-32 shadow-sm border border-gray-100">
-                  <FaPlane className="text-3xl text-[#1E3A8A] mb-2" />
-                  <span className="text-xs font-semibold text-gray-700">Resting Stop</span>
-               </div>
+              <div className="flex flex-col items-center p-4 bg-gray-50 rounded-2xl w-32 shadow-sm border border-gray-100">
+                <FaBusinessTime className="text-3xl text-[#1E3A8A] mb-2" />
+                <span className="text-xs font-semibold text-gray-700">Business Stay</span>
+              </div>
+              <div className="flex flex-col items-center p-4 bg-gray-50 rounded-2xl w-32 shadow-sm border border-gray-100">
+                <FaPlane className="text-3xl text-[#1E3A8A] mb-2" />
+                <span className="text-xs font-semibold text-gray-700">Resting Stop</span>
+              </div>
             </div>
           </div>
 
-          <div className="order-1 md:order-2 relative w-full h-[450px] rounded-3xl overflow-hidden shadow-2xl">
+          <div className="order-1 md:order-2 relative w-full h-[350px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/assets/banner/b3.jpg"
+              src="/assets/affordable-hotel-guwahati.webp"
               alt="Affordable Homestay at Atithi Homes"
               fill
               className="object-cover"
